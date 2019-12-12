@@ -1,0 +1,6 @@
+C:\Users\cyril\source\repos\JePrefereDigimon\JePrefereDigimon\obj\Debug\JePrefereDigimon.csprojAssemblyReference.cache
+C:\Users\cyril\source\repos\JePrefereDigimon\JePrefereDigimon\bin\Debug\JePrefereDigimon.exe.config
+C:\Users\cyril\source\repos\JePrefereDigimon\JePrefereDigimon\bin\Debug\JePrefereDigimon.exe
+C:\Users\cyril\source\repos\JePrefereDigimon\JePrefereDigimon\bin\Debug\JePrefereDigimon.pdb
+C:\Users\cyril\source\repos\JePrefereDigimon\JePrefereDigimon\obj\Debug\JePrefereDigimon.exe
+C:\Users\cyril\source\repos\JePrefereDigimon\JePrefereDigimon\obj\Debug\JePrefereDigimon.pdb
