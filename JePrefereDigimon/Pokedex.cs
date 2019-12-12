@@ -8,6 +8,11 @@ namespace JePrefereDigimon
     {
         List<Pokemon> Pokemons { get; set; }
 
+        public Pokedex(List<Pokemon> pokemons)
+        {
+            Pokemons = pokemons;
+        }
+
         /// <summary>
         /// Charge le pokedex avec le contenu du fichier CSV
         /// </summary>
@@ -25,6 +30,8 @@ namespace JePrefereDigimon
                         string[] listeDesPokemonsSplit = listeDesPokemons.Split(';'); // Sépare chaque info dans un tableau
                         string type = listeDesPokemonsSplit[1]; // Le type se trouve à la postion 2 donc à l'index 1
                         Pokemon pokemon;
+
+                        // Vive le polymorphisme 
                         switch (type.ToUpper())
                         {
                             case "FEU":
@@ -37,6 +44,10 @@ namespace JePrefereDigimon
                                 break;
                             case "PLANTE":
                                 pokemon = new PlantPokemon();
+                                InitializePokemon(pokemon, listeDesPokemonsSplit);
+                                break;
+                            default:
+                                pokemon = new Pokemon();
                                 InitializePokemon(pokemon, listeDesPokemonsSplit);
                                 break;
                         }
